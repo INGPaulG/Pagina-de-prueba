@@ -1,0 +1,105 @@
+
+html{
+    font-family: "Lato", sans-serif;   /* estilos de google fonts, aqui hay fuentes y falta probar sus iconos*/
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    background: purple;
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content{
+    max-width: 1450px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 4px 10px red; /*diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
+    border-radius: 2em;
+    position: relative;
+}
+
+.actions{
+    position:absolute;
+    top: 1.2em;
+    right: 2em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #d500f9;
+    display: inline-block;
+    box-shadow: 0 2px 3px rgb(124, 216, 216);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    line-height: 1em;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.red{
+    margin-left: 200px;
+    height: 200px;
+    width: 400px;
+    font-weight: 200;
+    background-color:red;
+}
+/*aqui va los comenatrios*/
+#boton-pago{
+    background-color: yellow;
+}
+
+a{
+    font-style: oblique;
+    text-decoration: none;
+    color: #d500f9;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even){        /*odd impares y even pares*/
+    background-color: #cfa8d6;
+}
+
+.title-item{
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: mediumvioletred;
+    padding-bottom: 1em;
+}
+
+.position{
+    background-color: #d500f9;
+    color: #cfa8d6;
+    padding: 10px;
+    border-radius: 2em;
+}
+
